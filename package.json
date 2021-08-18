@@ -1,0 +1,10 @@
+{
+  "name": "ng-i18n",
+  "description": "Angular Internationalization (i18n) library",
+  "version": "0.0.0",
+  "author": "Mykola Khilkovskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/cli": "^12.2.1"
+  }
+}
