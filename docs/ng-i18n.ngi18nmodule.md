@@ -4,8 +4,18 @@
 
 ## NgI18nModule class
 
+Angular Internationalization (i18n) library.
+
 <b>Signature:</b>
 
 ```typescript
 export declare class NgI18nModule 
 ```
+<b>Decorators:</b>
+
+`@NgModule`
+
+## Remarks
+
+Use for translate user interface to different languages.
+

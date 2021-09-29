@@ -4,9 +4,24 @@
 
 ## ng-i18n package
 
+A library for translate user interface to different languages.
+
+## Remarks
+
+The `ng-i18n` defines the [NgI18nModule](./ng-i18n.ngi18nmodule.md) module, which are used for translate user interface.
+
 ## Classes
 
 |  Class | Description |
 |  --- | --- |
-|  [NgI18nModule](./ng-i18n.ngi18nmodule.md) |  |
+|  [BaseLoader](./ng-i18n.baseloader.md) | Abstract class BaseLoader. |
+|  [NgI18nLoader](./ng-i18n.ngi18nloader.md) | class NgI18nLoader. |
+|  [NgI18nModule](./ng-i18n.ngi18nmodule.md) | Angular Internationalization (i18n) library. |
+|  [NgI18nService](./ng-i18n.ngi18nservice.md) |  |
+
+## Namespaces
+
+|  Namespace | Description |
+|  --- | --- |
+|  [NgI18n](./ng-i18n.ngi18n.md) | NgI18n namespace contains an Interfaces used in [NgI18nModule](./ng-i18n.ngi18nmodule.md) |
 

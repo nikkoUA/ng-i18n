@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [ng-i18n](./ng-i18n.md) |  |
+|  [ng-i18n](./ng-i18n.md) | A library for translate user interface to different languages. |
 
