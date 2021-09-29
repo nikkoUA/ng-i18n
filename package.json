@@ -4,7 +4,35 @@
   "version": "0.0.0",
   "author": "Mykola Khilkovskyi",
   "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "test": "ng test",
+    "build:docs": "rm -f -r dist && tsc && api-extractor run --local --verbose && api-documenter markdown --input-folder=temp --output-folder=docs"
+  },
   "devDependencies": {
-    "@angular/cli": "^12.2.1"
+    "@angular-devkit/build-angular": "~13.0.3",
+    "@angular/cli": "~13.0.3",
+    "@angular/common": "~13.0.2",
+    "@angular/compiler": "~13.0.2",
+    "@angular/compiler-cli": "~13.0.2",
+    "@angular/core": "~13.0.2",
+    "@angular/platform-browser": "~13.0.2",
+    "@angular/platform-browser-dynamic": "~13.0.2",
+    "@microsoft/api-documenter": "^7.13.54",
+    "@microsoft/api-extractor": "^7.18.11",
+    "@types/jasmine": "~3.9.1",
+    "@types/node": "^14.17.18",
+    "jasmine-core": "~3.9.0",
+    "karma": "~6.3.4",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.1",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-packagr": "^13.0.8",
+    "rxjs": "~6.6.7",
+    "tslib": "^2.3.1",
+    "typescript": "~4.4.4",
+    "zone.js": "~0.11.4"
   }
 }
